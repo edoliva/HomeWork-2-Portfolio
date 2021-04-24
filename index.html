@@ -1,98 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css"/>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css" />
     <title>Ed's Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <h1>Ed's Portfolio Webpage</h1>
-    </header>
-    <nav>
-        <a href="#about-me">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#resume">Resume</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <div class=main-screen>
+        <div class=navDiv>
+            <header>
+                <h1>Ed's Portfolio Webpage</h1>
+            </header>
+            <nav>
+                <button><a href="#about-me">About Me</a></button>
+                <button><a href="#projects">Projects</a></button>
+                <button><a href="#resume">Resume</a></button>
+                <button><a href="#contact">Contact</a></button>
+            </nav>
+        </div>
 
-    <div class="container">
-        <img src="Assets/Images/OpenAir.jpg" alt="Open Air" style="width:100%;">
-        <div class="bottom-center">
-            <a href="#about-me">Full Stack Software Developer</a>
-        </br>
-            <a href="#about-me">↡ ------- ↡</a>
+        <div class="container">
+            <img src="Assets/Images/OpenAir.jpg" alt="Open Air" style="width:100%;">
+            <div class="bottom-center">
+                <a href="#about-me">Full Stack Software Developer</a>
+                </br>
+                <a href="#about-me">↡ ------- ↡</a>
+            </div>
+        </div>
+        <div class="content">
+            <section id="about-me">
+                <img src="Assets/Images/EdOlivaProfilePic.jpg" alt="Ed's profile pic" class="right" />
+                <h2>About Me</h2>
+                <p>
+                    Full stack software developer, 7 year math teacher from NYC, and UPenn coding bootcamp graduate.
+                </p>
+                </br>
+                <p>
+                    Interested in all things EdTech.
+                </p>
+            </section>
+            <section id="resume">
+                <!-- <a href="https://github.com/edoliva" target="_blank"></a> -->
+                <a href="https://www.linkedin.com/in/edmond-oliva-6a412642/" target="_blank">
+                    <img src="Assets/Images/ResumeIcon.png" alt="Office Tablescape with buzzword icons" class="left" />
+                </a>
+                <h2>Resume</h2>
+                <p>
+                    Click on the image to view my resume, contact info below.
+                </p>
+            </section>
+            <section id="contact">
+                <a href="https://www.linkedin.com/in/edmond-oliva-6a412642/" target="_blank">
+                    <img src="Assets/Images/LinkedinIcon.png" alt="Linkedin Social Media Icon" class="right" />
+                </a>
+                <h2>Contact</h2>
+                <p>
+                    LinkedIn messages are prefered. Hope to hear from you soon! Click on the icon for a direct link.
+                </p>
+            </section>
+        </div>
+
+        <aside class="work" id="projects">
+            <h1>Projects:</h1>
+            </br>
+            <div>
+                <h3>JavaScript</h3>
+                <img id="JS-Projects-Btn" src="Assets/Images/JSCodingImage.jpeg" alt="JS Coding Image" />
+                <p>
+                    UPenn JS projects.
+                </p>
+            </div>
+            <div>
+                <h3>EdTech</h3>
+                <img id="EdTech-Projects-Btn" src="Assets/Images/EdTech.jpg" alt="EdTech logo" />
+                </a>
+                <p>
+                    Real-world EdTech use case projects.
+                </p>
+            </div>
+            <div>
+                <h3>Personal</h3>
+                <a href="https://github.com/edoliva" target="_blank">
+                    <img src="Assets/Images/JustForFun.png" alt="Brain lightbulb laptop images">
+                </a>
+                <p>
+                    Just for fun!
+                </p>
+            </div>
+        </aside>
+
+        <div class="container">
+            <img src="Assets/Images/TianmenMt.jpg" alt="Tianmen Mountian" style="width:100%;">
         </div>
     </div>
-    <div class="content">
-        <section id="about-me">
-            <img src="Assets/Images/EdOlivaProfilePic.jpg" alt="Ed's profile pic" class="right" />
-            <h2>About Me</h2>
-            <p>
-                Full stack software developer, 7 year math teacher from NYC, and UPenn coding bootcamp graduate.    
-            </p>
-        </br>
-            <p>
-                Interested in all things EdTech.     
-            </p>
-        </section>
-        <section id="resume">
-            <a href="https://www.linkedin.com/in/edmond-oliva-6a412642/" target="_blank">
-            <img src="Assets/Images/ResumeIcon.png" alt="Office Tablescape with buzzword icons" class="left" />
-            </a>
-            <h2>Resume</h2>
-            <p>
-                Click on the image to view my resume, contact info below.
-            </p>
-        </section>
-        <section id="contact">
-            <a href="https://www.linkedin.com/in/edmond-oliva-6a412642/" target="_blank">
-            <img src="Assets/Images/LinkedinIcon.png" alt="Linkedin Social Media Icon" class="right" />
-            </a>
-            <h2>Contact</h2>
-            <p>
-                LinkedIn messages are prefered. Hope to hear from you soon! Click on the icon for a direct link. 
-            </p>
-        </section>
+
+    <!-- JS Projects Page -->
+    <div class=JS-Project-Page>
+        <div class=navDiv>
+            <header>
+                <h1>Ed's UPenn Projects</h1>
+            </header>
+            <nav>
+                <button id=home-btn><a href="https://edoliva.github.io/Portfolio/">Home</a></button>
+                <button><a href="https://www.linkedin.com/in/edmond-oliva-6a412642/"
+                        target="_blank">LinkedIn</a></button>
+                <button><a href="https://github.com/edoliva" target="_blank">GitHub</a></button>
+            </nav>
+        </div>
+        <div class="container">
+            <img src="Assets/Images/spainoverview.jpg" alt="Spain Overview" style="width:100%;">
+        </div>
+        <aside class="work" id="projects">
+            <h1>Projects:</h1>
+            </br>
+            <div>
+                <h3>JavaScript</h3>
+                <img id="JS-Projects-Btn1" src="Assets/Images/JSCodingImage.jpeg" alt="JS Coding Image" />
+                <p>
+                    UPenn JS projects.
+                </p>
+            </div>
+            <div>
+                <h3>EdTech</h3>
+                <img id="EdTech-Projects-Btn1" src="Assets/Images/EdTech.jpg" alt="EdTech logo" />
+                </a>
+                <p>
+                    Real-world EdTech use case projects.
+                </p>
+            </div>
+            <div>
+                <h3>Personal</h3>
+                <a href="https://github.com/edoliva" target="_blank">
+                    <img src="Assets/Images/JustForFun.png" alt="Brain lightbulb laptop images">
+                </a>
+                <p>
+                    Just for fun!
+                </p>
+            </div>
+        </aside>
+        <div class="content" class="content-projects">
+            <section id="mix-it-up-btn">
+                <img src="Assets/Images/drinkimage.jpg" alt="cocktail image" class="right" />
+                <h2>Mix-It-Up</h2>
+                <p>
+                    Cocktail and Meal Ingredient Search Tool
+                </p>
+                </br>
+                <p>
+                    Search by ingredient for a unique recipe, or explore new ingredients you may not have known about!
+                </p>
+            </section>
+            <section id="weather-dashboard-btn">
+                <img src="Assets/Images/weatherlogo.jpg" alt="Weather logo" class="left" />
+                <h2>Weather Dashboard</h2>
+                <p>
+                    Search by city name to get the most up-to-date weather, as well as the 5 day forcast.
+                </p> </br>
+                <p>
+                    Past searches save to local storage, and become clickable search buttons.
+                </p>
+            </section>
+            <section id="random-password-btn">
+                <img src="Assets/Images/lockimage.png" alt="Lock Icon" class="right" />
+                </a>
+                <h2>Random Password Generator</h2>
+                <p>
+                    Given user input, this password generator can create random passwords of varying length and complexity. 
+                </p> </br>
+                <p>
+                    Built-in check so all user criteria is met before delivering a final password. 
+                </p>
+            </section>
+        </div>
     </div>
 
-    <aside class="work" id="projects">
-        <h1>Projects:</h1>
-    </br>
-        <div>
-            <h3>JavaScript</h3>
-            <a href="https://github.com/edoliva" target="_blank">
-            <img src="Assets/Images/JSCodingImage.jpeg" alt="JS Coding Image"/>
-            </a>
-            <p>
-                UPenn JS projects.
-            </p>
+    <!-- EdTEch Projects Page -->
+    <div class=EdTech-Project-Page>
+        <div class=navDiv>
+            <header>
+                <h1>Ed's EdTech Projects</h1>
+            </header>
+            <nav>
+                <button id=home-btn><a href="https://edoliva.github.io/Portfolio/">Home</a></button>
+                <button><a href="https://www.linkedin.com/in/edmond-oliva-6a412642/"
+                        target="_blank">LinkedIn</a></button>
+                <button><a href="https://github.com/edoliva" target="_blank">GitHub</a></button>
+            </nav>
         </div>
-        <div>
-            <h3>EdTech</h3>
-            <a href="https://github.com/edoliva" target="_blank">
-            <img src="Assets/Images/EdTech.jpg" alt="EdTech logo"/>
-            </a>
-            <p>
-                Real-world EdTech use case projects.
-            </p>
+        <div class="container">
+            <img src="Assets/Images/nycoverview.jpg" alt="NYC Overview" style="width:100%;">
         </div>
-        <div>
-            <h3>Personal</h3>
-            <a href="https://github.com/edoliva" target="_blank">
-            <img src="Assets/Images/JustForFun.png" alt="Brain lightbulb laptop images">
-            </a>
-            <p>
-                Just for fun!
-            </p>
+        <aside class="work" id="projects">
+            <h1>Projects:</h1>
+            </br>
+            <div>
+                <h3>JavaScript</h3>
+                <img id="JS-Projects-Btn2" src="Assets/Images/JSCodingImage.jpeg" alt="JS Coding Image" />
+                <p>
+                    UPenn JS projects.
+                </p>
+            </div>
+            <div>
+                <h3>EdTech</h3>
+                <img id="EdTech-Projects-Btn2" src="Assets/Images/EdTech.jpg" alt="EdTech logo" />
+                </a>
+                <p>
+                    Real-world EdTech use case projects.
+                </p>
+            </div>
+            <div>
+                <h3>Personal</h3>
+                <a href="https://github.com/edoliva" target="_blank">
+                    <img src="Assets/Images/JustForFun.png" alt="Brain lightbulb laptop images">
+                </a>
+                <p>
+                    Just for fun!
+                </p>
+            </div>
+        </aside>
+        <div class="content" class="content-projects">
+            <section id="api-quiz-btn">
+                <img src="Assets/Images/quizimage.jpg" alt="Linkedin Social Media Icon" class="right" />
+                </a>
+                <h2>API Coding Quiz</h2>
+                <p>
+                    Take a timed quiz that subtracts 10 seconds every time you answer a question incorrectly.
+                </p> </br>
+                <p>
+                    Save your score and initials to local storage. Try again to beat the high score!
+                </p>
+            </section>
+            <section id="student-schedule-btn">
+                <img src="Assets/Images/schedulelogo.jpg" alt="Schedule logo" class="left" />
+                <h2>Student Scheduler</h2>
+                <p>
+                    Keep track of your daily tasks by entering and clearing the events in this handy scheduler.
+                </p> </br>
+                <p>
+                    Hour blocks will change color throughout the day so you don't fall behind!
+                </p>
+            </section>
+            <section id="mix-it-up-btn">
+                <img src="Assets/Images/schoollogo.jpg" alt="Back to School Image" class="right" />
+                <h2>More to come!!</h2>
+                <!-- <p>
+                    Cocktail and Meal Ingredient Search Tool
+                </p>
+                </br>
+                <p>
+                    Search by ingredient for a unique recipe, or explore new ingredients you may not have known about!
+                </p> -->
+            </section>
         </div>
-    </aside>
-
-    <div class="container">
-        <img src="Assets/Images/TianmenMt.jpg" alt="Tianmen Mountian" style="width:100%;">
     </div>
 
     <footer>
@@ -102,6 +265,8 @@
         </p>
     </footer>
 
-    
+    <script src="Assets/JS/script.js"></script>
+
 </body>
+
 </html>
