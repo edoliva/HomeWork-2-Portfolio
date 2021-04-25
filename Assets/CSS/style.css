@@ -112,7 +112,11 @@ nav a {
     font-family: fantasy;
     font-size:40px;
     color: var(--white);
-    font-weight: bold;
+}
+
+.bottom-center:hover {
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 :target {
