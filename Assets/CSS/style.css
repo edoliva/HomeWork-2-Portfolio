@@ -155,13 +155,35 @@ nav a {
 }
 
 .content section {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--red);
     color: var(--white);
     font-size: 30px;
+}
+.project-btns {
+    margin-bottom: 30px;
+    padding: 10px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 30px;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-screen-shots {
+    width: 20%;
+}
+
+.project-screen-shots:hover {
+    transform: scale(4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 section {
