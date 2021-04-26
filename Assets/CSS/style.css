@@ -100,7 +100,7 @@ nav a {
   }
 
 .container a {
-    color: var(--white);
+    color: black;
     text-decoration: none;
 }
 
