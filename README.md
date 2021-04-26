@@ -1,6 +1,6 @@
-# HomeWork-2-Portfolio: Advanced CSS
+# Portfolio
 
-## HW 2 Description
+## Description
 This webpage was created with the intention of informing a prospective employer about who I am, my skill sets, and my areas of interest, which are:
 - JS Projects 
 - EdTech tools
