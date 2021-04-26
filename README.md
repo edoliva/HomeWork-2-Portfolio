@@ -22,7 +22,7 @@ This webpage was created with the intention of informing a prospective employer 
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-Clone or download this repository on GitHub then open "HomeWork-2-Portfolio/index.html" in a browser.   
+Clone or download this repository on GitHub then open "edoliva.github.io/Portfolio/" in a browser.   
 ## Usage
 The navigation bar includes 4 links to more information regarding who I am, my skill sets, and my areas of interest. As well as a side bar with 3 areas of project interest (JS/Bootcamp activities, EdTech professional activities, and personal projects).
 The images all link to external websites in a new tab based on the description.
