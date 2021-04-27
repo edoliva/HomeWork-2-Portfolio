@@ -110,7 +110,7 @@ nav a {
   }
 
 .container a {
-    color: black;
+    color: white;
     outline: blanchedalmond;
     text-decoration: none;
 }
@@ -122,7 +122,6 @@ nav a {
     transform: translate(-50%, -50%);
     font-family:monospace;
     font-size:40px;
-    color: var(--white);
 }
 
 .bottom-centerProj {
