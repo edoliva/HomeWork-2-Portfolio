@@ -27,6 +27,7 @@ button {
     border-radius: 15px;
     padding: 5px;
     border: 1px solid rgb(7, 0, 0);
+    margin-top: 5px;
     margin-left: 7.5px;
     margin-bottom: 5px;
     margin-right: 7.5px;
@@ -68,10 +69,19 @@ header h1 {
     font-family: sans-serif;
 }
 
+.navDivHeader {
+    border: 8px solid rgb(8, 133, 133);
+    border-radius: 5px;
+    /* position:fixed; */
+    padding-top: 50px;
+    width:100%;
+    /* z-index:1; */
+}
+
 .navDiv {
     border: 8px solid rgb(8, 133, 133);
-    border-radius: 15px;
-    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
     position:fixed;
     top:0;
     width:100%;
@@ -101,6 +111,7 @@ nav a {
 
 .container a {
     color: black;
+    outline: blanchedalmond;
     text-decoration: none;
 }
 
@@ -109,12 +120,28 @@ nav a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: fantasy;
+    font-family:monospace;
     font-size:40px;
     color: var(--white);
 }
 
+.bottom-centerProj {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:monospace;
+    font-size:85px;
+    color: var(--white);
+    outline: blanchedalmond;
+}
+
 .bottom-center:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.bottom-centerProj:hover {
     font-weight: bolder;
     cursor: pointer;
 }
@@ -296,6 +323,9 @@ footer h2 {
     .bottom-center {
         font-size: 20px;
       }
+      .bottom-centerProj {
+        font-size: 35px;
+      }
     .work img {
         max-height: 200px;
     }
@@ -319,6 +349,9 @@ footer h2 {
     }
     .bottom-center {
         font-size: 15px;
+      }
+      .bottom-centerProj {
+        font-size: 25px;
       }
     .content section {
     font-size: 12px;
